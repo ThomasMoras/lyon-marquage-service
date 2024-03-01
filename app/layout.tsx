@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html data-theme="light">
+    <html data-theme="fantasy">
       <body>
         {/* <Theme> */}
         <Navbar></Navbar>

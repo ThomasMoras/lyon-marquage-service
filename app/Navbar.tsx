@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="navbar-start">
         <div className="dropdown flex  xl:hidden">
           <Link className="" href="/">
-            <Image src="/images/logo.svg" height={75} width={75} alt={""} />
+            <Image src="/logo.png" height={75} width={75} alt={""} />
           </Link>
           <div tabIndex={0} role="button" className="btn btn-ghost">
             <svg
@@ -73,7 +73,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-center hidden xl:flex">
         <Link className="pr-7" href="/">
-          <Image src="/images/logo.svg" height={75} width={75} alt={""} />
+          <Image src="/logo.png" height={75} width={75} alt={""} />
         </Link>
         {linkArray.map((link) => (
           <Link

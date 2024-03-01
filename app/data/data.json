@@ -1,0 +1,124 @@
+{
+  "home-slides": [
+    {
+      "index": 1,
+      "title": "Titre 1",
+      "content": "blabla 1",
+      "img": "/broderie/img_6.jpg"
+    },
+    {
+      "index": 2,
+      "title": "Titre 2",
+      "content": "blabla 2",
+      "img": "/enseignes/img_16.jpg"
+    },
+    {
+      "index": 3,
+      "title": "Titre 3",
+      "content": "blabla 3",
+      "img": "/broderie/img_11.jpg"
+    },
+    {
+      "index": 4,
+      "title": "Titre 4",
+      "content": "blabla 4",
+      "img": "/serigraphie/img_25.jpg"
+    }
+  ],
+  "home": {
+    "title": "Lyon Marquage Services : votre marquage textile à Saint-Priest",
+    "content": "Lorem Ipsum"
+  },
+  "serigraphie": {
+    "title": "Sérigraphie",
+    "content": "La sérigraphie est la technique d'impression textile la plus répandue, offrant des couleurs éclatantes et fidèles, un rendu visuel net et soigné, ainsi qu'une durabilité exceptionnelle, le tout à des prix compétitifs !",
+    "img": "/serigraphie/img_13.jpg",
+    "composants": [
+      {
+        "title": "Sérigraphie à Lyon",
+        "content": "Pouvant être comparée à la technique du pochoir, la sérigraphie consiste à faire passer une encre au travers d'un écran. Elle offre des couleurs lumineuses et intenses, résistantes à l'usure du temps.Elle permet un marquage économique tout en conservant l'aspect qualitatif et l'esthétique souhaités.\n Selon la qualité et la complexité de votre motif à marquer, cette technique de marquage s'effectue sur un carrousel manuel  ou automatique. C'est une méthode idéale si vous souhaitez imprimer des moyennes ou des grandes séries. Nous sommes également en capacité de floquer tout type de textiles (principalement du coton) : t-shirts, polos, sweats, tabliers, blouses, sacs en tissu ou encore bavoirs, etc.\nFaites appel à l'entreprise Lyon Marquage Services pour tous vos projets d'impression sérigraphique. Nous saurons vous conseiller parfaitement afin que vous choisissiez la technique de marquage textile la plus adaptée à vos besoins.",
+        "img": "",
+        "position": "left"
+      },
+      {
+        "title": "Impréssion numérique à lyon, votre T-Shirt personnalisé",
+        "content": "Le transfert numérique est une technique d'impression conçue pour optimiser les ressources et le potentiel de la sérigraphie et de l'impression numérique. Elle offre la possibilité de tirages uniques et à la demande et offre également un rendu parfait en quadrichromie. Ainsi, elle permet le marquage de logos et un transfert sur les textiles foncés. Elle est adaptée aux petites et aux grandes séries.",
+        "img": "",
+        "position": "right"
+      },
+      {
+        "title": "Le transfert laser",
+        "content": "Cette technique est quant à elle réservée aux textiles clairs. Pour imprimer des photos, dessins ou logos en quadrichromie, cette technique est rapide et fiable. Le motif souhaité est reproduit à partir d'une imprimante laser à l'aide d'un papier transfert qui sera par la suite thermocollé grâce à une presse à chaud appliquée sur le support choisi.\n Vous souhaitez passer commande pour une impression unique ou pour des petites, moyennes et grandes séries ? Demandez un devis gratuit ou contactez notre entreprise Lyon Marquage Services située à Saint-Priest, près de Lyon.\n Découvrez également nos marquages réalisés en broderie.",
+        "img": "",
+        "position": "left"
+      }
+    ]
+  },
+  "broderie": {
+    "title": "Broderie",
+    "content": "Offrez une touche solide et haut de gamme à vos vêtements d'entreprise, d'association, de club de sport ou de loisirs en personnalisant leur broderie avec votre logo, texte ou motif distinctif !",
+    "img": "/broderie/img_26.jpg",
+    "composants": [
+      {
+        "title": "La broderie et ses avantages",
+        "content": "La broderie permet une personnalisation haut de gamme de vos textiles de manière durable mais aussi et surtout esthétique. La broderie est un marquage textile offrant de nombreux avantages. Elle convient à tous les tissus et notamment aux tissus qui ne supportent pas d'autres techniques de marquage, qu'il s'agisse de polaires, de survêtements, de vêtements doublés ou encore des sacs ou des casquettes.",
+        "img": "",
+        "position": "left"
+      },
+      {
+        "title": "Les differents types de supports",
+        "content": "Lyon Marquage Services brode donc de nombreux supports textiles: t-shirts, sweats, polos, polaires et chemises, casquettes, linge de maison, serviettes de bain, tenues de sport ou vêtements de travail, blousons et parkas, ainsi que les sacs, les articles de bagagerie ou encore les équipements de protection individuelle (EPI).",
+        "img": "",
+        "position": "right"
+      },
+      {
+        "title": "Le transfert laser",
+        "content": "Cette technique est quant à elle réservée aux textiles clairs. Pour imprimer des photos, dessins ou logos en quadrichromie, cette technique est rapide et fiable. Le motif souhaité est reproduit à partir d'une imprimante laser à l'aide d'un papier transfert qui sera par la suite thermocollé grâce à une presse à chaud appliquée sur le support choisi.\n Vous souhaitez passer commande pour une impression unique ou pour des petites, moyennes et grandes séries ? Demandez un devis gratuit ou contactez notre entreprise Lyon Marquage Services située à Saint-Priest, près de Lyon.\n Découvrez également nos marquages réalisés en broderie.",
+        "img": "",
+        "position": "left"
+      }
+    ]
+  },
+  "enseignes": {
+    "title": "Enseignes",
+    "content": "",
+    "img": "/enseignes/img_17.jpg",
+    "composants": [
+      {
+        "title": "Enseignes publicitaires et plv, votre communication à Lyon",
+        "content": "Enseignes, signalétiques, PLV ou marquage sur véhicule, tous ces supports de communication peuvent faire la différence ! Un panneau publicitaire, une banderole, un adhésif ou bien un utilitaire à votre image vous garantit une publicité attractive. Lyon Marquage Services réalise l'impression de tous vos supports de communication.\n Nous mettons à votre disposition nos savoir-faire techniques et créatifs dans le domaine de la publicité afin de répondre à vos attentes, anticiper vos besoins et vous proposer des projets sur-mesure.\n Que vous souhaitez une impression numérique (stand, affiches, affiches publicitaires, panneaux publicitaires, kakemono, roll-up, banderoles publicitaires ou une bâche publicitaire), une impression d'adhésifs (vitrophanie, stickers véhicule, stickers vitrine), nous sommes à même de réaliser tous vos supports de communication.\n Qu'il s'agisse d'indiquer, de délimiter ou d'embellir un espace, la signalétique est indispensable pour la communication d'un professionnel. Elle vous permet de valoriser vos espaces commerciaux, espaces professionnels ou votre évènement.",
+        "img": "/enseignes/img_15.jpg",
+        "position": "left"
+      },
+      {
+        "title": "Marquage de véhicules à Lyon",
+        "content": "Vous souhaitez décorer votre véhicule tout en faisant de la publicité pour votre entreprise ?\n Habillez votre véhicule d’un outil de communication attrayant et visuel ! Le marquage de véhicules permet notamment de faire connaître votre entreprise et vos activités à tous. \nLyon Marquage Services vous guide dans le choix des matières, des coloris et dans la présentation de l’ensemble pour correspondre au mieux à votre demande. \nQue vous ayez envie de décorer votre véhicule à usage privé ou parer votre utilitaire professionnel avec le logo, le nom de votre enseigne ou son slogan, contactez-nous !",
+        "img": "",
+        "position": "right"
+      }
+    ]
+  },
+  "objetsPublicitaires": {
+    "title": "Objets publicitaires",
+    "content": "",
+    "img": "/objets-publicitaires/img_24.jpg",
+    "composants": [
+      {
+        "title": "Vos objets publicitaires à Lyon",
+        "content": "Vous souhaitez vous démarquer ? Vous désirez augmenter votre visibilité et fidéliser votre clientèle ? Optez pour les objets publicitaires et imprimez votre logo ou vos visuels.\n Nos différents fournisseurs nous permettent de vous proposer un large choix d'objets publicitaires pouvant répondre à vos attentes et vos besoins.\n Que vous ayez envie de personnaliser des stylos ou coffrets, des clés USB, des lecteurs MP3 ou des souris d'ordinateur, l'entreprise Lyon Marquage Services répond à votre demande.",
+        "img": "",
+        "position": "left"
+      },
+      {
+        "title": "Nos différents objets",
+        "content": "Nous vous proposons également tout type d'accessoires de bureau : pots à crayons, tapis de souris, calculettes... mais aussi des objets électroniques tels que des cadres numériques ou tout autre goodies et objet publicitaire comme des porte-clés, des pointeurs laser, des réveils, des montres, des trousses, des mugs, des coffrets cadeaux ou encore des tote bags.\n Aujourd'hui, se démarquer de la concurrence est devenu très important pour les entreprises. La difficulté réside donc dans la différenciation de sa communication, quelle que soit la clientèle visée. Ainsi, il existe de nombreuses autres techniques en dehors de la simple impression de documents publicitaires. En effet, Lyon Marquage Services vous offre des solutions originales et économiques pour que vous réalisiez une communication efficace et qui vous démarque.",
+        "img": "",
+        "position": "right"
+      }
+    ]
+  },
+  "nos-realisations": {
+    "title": "Nos réalisations",
+    "content": "Lorem Ipsum"
+  }
+}
