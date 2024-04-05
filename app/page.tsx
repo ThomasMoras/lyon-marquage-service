@@ -17,7 +17,13 @@ export default async function Home() {
         </div>
 
         {/* <Banner title={""} description={""} src={""}></Banner> */}
-        <Carousel></Carousel>
+        <Carousel
+          index={0}
+          title={""}
+          content={""}
+          src={""}
+          buttonName={""}
+        ></Carousel>
       </header>
       <section id="whoiam"></section>
       <section id="services"></section>
