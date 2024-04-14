@@ -91,15 +91,7 @@ const Navbar = () => {
           </Link>
         ))}
       </div>
-      <div className="navbar-end">
-        <button onClick={handleClick} className="pr-3">
-          <FiPhone size={25} />
-        </button>
-        <button>
-          <GoClock size={25} />
-        </button>
-        {/* <a className="btn">Button</a> */}
-      </div>
+      <div className="navbar-end"></div>
     </nav>
   );
 };
