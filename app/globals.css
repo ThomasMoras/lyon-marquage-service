@@ -33,3 +33,18 @@ body {
 .banner-custom {
   min-height: 75vh;
 }
+
+.test {
+  width: 100%;
+  place-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+div.myimage {
+  content:url("/broderie/img_11.jpg")
+}
+
+.banner-custom {
+  height: 100vh;
+}

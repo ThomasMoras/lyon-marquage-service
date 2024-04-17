@@ -1,5 +1,7 @@
 import { promises as fs } from "fs";
-import SwiperDemo from "./ui/components/SwiperDemo";
+
+import MySwiper from "./ui/components/MySwiper";
+import { JSX } from "react";
 
 export default async function Home() {
   const file = await fs.readFile(process.cwd() + "/app/data/data.json", "utf8");
@@ -21,12 +23,14 @@ export default async function Home() {
   return (
     <>
       <header className="mt-0">
-        <div>
+        {/* <div>
           <h1>{data.title}</h1>
           <p>{data.content}</p>
-        </div>
-        <SwiperDemo></SwiperDemo>
+        </div> */}
+        {/* <SwiperDemo></SwiperDemo> */}
       </header>
+      <MySwiper></MySwiper>
+
       <section id="whoiam"></section>
       <section id="services"></section>
       <section id="news"></section>

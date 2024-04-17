@@ -57,8 +57,8 @@ const Navbar = () => {
               <Link
                 href={link.href}
                 className={classnames({
-                  "text-rose-700": link.href === currentPath,
-                  "text-blue-500": link.href != currentPath,
+                  "text-cyan-700": link.href === currentPath,
+                  "text--500": link.href != currentPath,
                   "btn btn-ghost normal-case text-xl hover:bg-white hover:underline underline-offset-8":
                     true,
                   [`${lusitana.className}`]: true,
@@ -79,8 +79,8 @@ const Navbar = () => {
           <Link
             href={link.href}
             className={classnames({
-              "text-rose-700": link.href === currentPath,
-              "text-blue-500": link.href != currentPath,
+              "text-cyan-700": link.href === currentPath,
+              "text-purple-500": link.href != currentPath,
               "btn btn-ghost normal-case text-xl hover:bg-white hover:underline underline-offset-8":
                 true,
               [`${lusitana.className}`]: true,
