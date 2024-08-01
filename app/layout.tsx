@@ -19,9 +19,10 @@ export default function RootLayout({
     <html data-theme="fantasy">
       <body>
         {/* <Theme> */}
-        <Navbar></Navbar>
-        {children}
-        {/* <main> </main> */}
+        <header>
+          <Navbar></Navbar>
+        </header>
+        <main> {children}</main>
         {/* </Theme> */}
       </body>
     </html>

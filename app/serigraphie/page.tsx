@@ -1,6 +1,7 @@
 import React from "react";
 import Banner from "../ui/components/Banner";
 import { promises as fs } from "fs";
+import CustomRow from "../ui/components/CustomRow";
 
 const Serigraphie = async () => {
   const file = await fs.readFile(process.cwd() + "/app/data/data.json", "utf8");
@@ -15,7 +16,13 @@ const Serigraphie = async () => {
           buttonName="En savoir plus"
         ></Banner>
       </header>
-      <section id="description"></section>
+      <section id="description" className="mt-5">
+        <CustomRow
+          title={"Titre test"}
+          desc={"description bbb"}
+          imgs={[]}
+        ></CustomRow>
+      </section>
       <section id="impression-numerique"></section>
       <section id="transfert-laser"></section>
 

@@ -15,23 +15,35 @@ import {
   Navigation,
   Pagination,
   Scrollbar,
+  EffectCreative,
 } from "swiper/modules";
 import Banner from "./Banner";
 
-export default function MySwiper() {
-  const slides = [
-    { src: "/broderie/img_11.jpg" },
-    { src: "/serigraphie/img_2.png" },
-    { src: "/enseignes/img_15.jpg" },
-    { src: "/serigraphie/img_25.jpg" },
-  ];
-
+export default function MySwiper({ bannerArray }: any) {
   return (
     <Swiper
       className="max-h-screen"
-      modules={[Autoplay, Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={50}
+      modules={[
+        Autoplay,
+        Navigation,
+        Pagination,
+        Scrollbar,
+        A11y,
+        EffectCreative,
+      ]}
+      spaceBetween={0}
+      loop={true}
       navigation
+      // effect="creative"
+      // creativeEffect={{
+      //   prev: {
+      //     // will set `translateZ(-400px)` on previous slides
+      //     translate: [0, 0, -400],
+      //   },
+      //   next: {
+      //     translate: ["100%", 0, 0],
+      //   },
+      // }}
       speed={5000}
       autoplay={{
         delay: 2500,
@@ -41,20 +53,13 @@ export default function MySwiper() {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}
     >
-      {slides.map((slide, index) => (
+      {bannerArray.map((b: any, index: any) => (
         <SwiperSlide key={index}>
-          {/* {slide.src && (
-            <img
-              className="w-screen object-cover"
-              src={slide.src}
-              alt={`Slide ${index}`}
-            />
-          )} */}
           <Banner
-            title={"Lyon Marquage"}
-            description="blablabalabla"
-            src={"/broderie/img_11.jpg"}
-            buttonName="En savoir plus"
+            title={b.title}
+            description={b.description}
+            src={b.src}
+            buttonName={b.buttonName}
           ></Banner>
         </SwiperSlide>
       ))}

@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 const Banner = ({
@@ -23,7 +24,12 @@ const Banner = ({
         <div className="max-w-xl">
           <h1 className="mb-8 text-6xl font-bold">{title}</h1>
           <p className="mb-5 text-lg italic">{description}</p>
-          <button className="btn btn-secondary">{buttonName}</button>
+          <button
+            className="btn btn-secondary"
+            onClick={() => (window.location.href = "#description")}
+          >
+            {buttonName}
+          </button>
         </div>
       </div>
     </div>

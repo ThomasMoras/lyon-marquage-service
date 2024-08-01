@@ -26,7 +26,7 @@ const Navbar = () => {
     { href: "/contact", label: "Nous contacter" },
   ];
   return (
-    <nav className="navbar bg-base-100 nav-custom">
+    <nav className="navbar bg-base-100 nav-custom fixed z-10">
       <div className="navbar-start">
         <div className="dropdown flex  xl:hidden">
           <Link className="" href="/">
@@ -79,8 +79,8 @@ const Navbar = () => {
           <Link
             href={link.href}
             className={classnames({
-              "text-cyan-700": link.href === currentPath,
-              "text-purple-500": link.href != currentPath,
+              "text-red-600": link.href === currentPath,
+              "text-blue-700": link.href != currentPath,
               "btn btn-ghost normal-case text-xl hover:bg-white hover:underline underline-offset-8":
                 true,
               [`${lusitana.className}`]: true,

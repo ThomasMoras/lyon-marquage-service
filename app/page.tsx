@@ -19,23 +19,33 @@ export default async function Home() {
   //   // Add more images or other content as needed
   // ];
   const slides = Array.from({ length: 10 }, (_, index) => index + 1);
-
+  const bannerArray = [
+    {
+      title: "title 1",
+      description: "desc 1",
+      src: "/broderie/img_11.jpg",
+      buttonName: "Name 1",
+    },
+    {
+      title: "title 2",
+      description: "desc 2",
+      src: "/enseignes/img_16.jpg",
+      buttonName: "Name 2",
+    },
+    {
+      title: "title 3",
+      description: "desc 3",
+      src: "/serigraphie/img_13.jpg",
+      buttonName: "Name 3",
+    },
+  ];
   return (
     <>
-      <header className="mt-0">
-        {/* <div>
-          <h1>{data.title}</h1>
-          <p>{data.content}</p>
-        </div> */}
-        {/* <SwiperDemo></SwiperDemo> */}
-      </header>
-      <MySwiper></MySwiper>
-
+      <MySwiper bannerArray={bannerArray}></MySwiper>
       <section id="whoiam"></section>
       <section id="services"></section>
       <section id="news"></section>
       <section id="partners"></section>
-
       <footer></footer>
     </>
   );
